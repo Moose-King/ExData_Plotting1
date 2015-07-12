@@ -1,4 +1,4 @@
-## Start by making sure we're working with our prepared dataset
+## Start by making sure we're working with our prepared dataset. Refer to HouseholdPowerData_setup.R in this repository.
 source("HouseholdPowerData_setup.R")
 
 ## Setting up a 2 by 2 plot to contain the next 4 plots
