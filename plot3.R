@@ -1,4 +1,4 @@
-## Start by making sure we're working with our prepared dataset
+## Start by making sure we're working with our prepared dataset. Refer to HouseholdPowerData_setup.R in this repository.
 source("HouseholdPowerData_setup.R")
 
 ## Creating a plot of sub meter readings 1-3 against their corresponding timestamps
