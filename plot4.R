@@ -19,7 +19,7 @@ lines(datHP$timestamp,datHP$Sub_metering_2, col= "red")
 lines(datHP$timestamp,datHP$Sub_metering_3, col= "blue")
 
 ## We'll want to remove the border of the legend we'll be creating so
-legend("topright", bty = "n", col = c("black","red", "blue"),
+legend("topright", bty = "n", cex=0.5, col = c("black","red", "blue"),
        c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), lwd = 1)
 
 ## Creating a plot of Global Reactive Power against its timestamp in bottom right corner
